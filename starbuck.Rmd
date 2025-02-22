@@ -42,7 +42,213 @@ library(ggthemes)
 
 ################################################# 
 
-This section analyzes the age and membership distribution of customers.
+This section analyzes the age and membership distribution of customers. We'll create age groups and visualize their relationship with membership tiers.
 
-We'll create age groups and visualize their relationship with membership tiers.
+```{r}
+demographics <- read.csv("customer_demographics.csv")
+stores <- read.csv("store_data.csv")
+purchases <- read.csv("purchase_history.csv")
+loyalty <- read.csv("loyalty_data.csv")
+```
 
+Create customer segments
+
+```{r}
+demographics <- demographics %>%
+  mutate(income = as.numeric(income))
+customer_segments <- demographics %>%
+  left_join(loyalty, by = "customer_id") %>%
+  mutate(
+    age_group = cut(age, breaks = c(0, 25, 35, 50, 100),
+                    labels = c("18-25", "26-35", "36-50", "50+")),
+    income_group = cut(income, breaks = c(0, 30000, 60000, 90000, Inf),
+                      labels = c("Low", "Medium", "High", "Very High"))
+  )
+```
+
+Create visualization of age distribution
+
+```{r}
+ggplot(customer_segments, aes(x = age_group, fill = membership_tier)) +
+  geom_bar(position = "dodge") +
+  scale_fill_viridis(discrete = TRUE, option = "D") +
+  labs(title = "Customer Age Distribution by Membership Tier",
+       subtitle = "Understanding age group representation across membership levels",
+       x = "Age Group", 
+       y = "Number of Customers",
+       fill = "Membership Tier") +
+  theme_minimal() +
+  theme(
+    plot.title = element_text(face = "bold"),
+    axis.text.x = element_text(angle = 45, hjust = 1)
+  )
+```
+
+Assessment:
+
+################################################# 
+
+# 2. PURCHASE TIMING ANALYSIS
+
+################################################# 
+
+This section examines when purchases occur throughout the day. We'll analyze hourly patterns to identify peak times.
+
+```{r}
+purchase_patterns <- purchases %>%
+  mutate(
+    date = as.Date(date),
+    month = floor_date(date, "month"),
+    hour = hour(as.POSIXct(time, format = "%H:%M:%S"))
+  )
+```
+
+Create hourly distribution plot
+
+```{r}
+ggplot(purchase_patterns, aes(x = hour)) +
+  geom_histogram(aes(fill = ..count..), bins = 24) +
+  scale_fill_viridis() +
+  labs(title = "Hourly Purchase Distribution",
+       subtitle = "Understanding peak hours of business",
+       x = "Hour of Day (24-hour format)",
+       y = "Number of Transactions") +
+  theme_minimal() +
+  scale_x_continuous(breaks = seq(0, 23, 2))
+```
+
+Assessment:
+
+################################################# 
+
+# 3. PRODUCT PERFORMANCE ANALYSIS
+
+################################################# 
+
+This section analyzes which products generate the most revenue We'll create a ranking of drinks by total revenue
+
+```{r}
+product_mix <- purchases %>%
+  group_by(drink_type) %>%
+  summarize(
+    total_revenue = sum(total_amount),
+    count = n(),
+    avg_price = mean(total_amount)
+  ) %>%
+  arrange(desc(total_revenue))
+```
+
+Create product revenue visualization
+
+```{r}
+ggplot(product_mix, aes(x = reorder(drink_type, total_revenue), y = total_revenue)) +
+  geom_bar(stat = "identity", aes(fill = total_revenue)) +
+  scale_fill_viridis() +
+  coord_flip() +
+  labs(title = "Revenue by Drink Type",
+       subtitle = "Ranking of drinks by total revenue",
+       x = "Drink Type",
+       y = "Total Revenue ($)") +
+  theme_minimal() +
+  theme(legend.position = "none")
+```
+
+Assessment:
+
+################################################# 
+
+# 4. CUSTOMER VALUE ANALYSIS
+
+################################################# 
+
+This section identifies high-value customers and their characteristics We'll analyze the relationship between age, spending, and visit frequency
+
+```{r}
+customer_value <- purchase_patterns %>%
+  group_by(customer_id) %>%
+  summarize(
+    total_spent = sum(total_amount),
+    visit_count = n()
+  ) %>%
+  left_join(demographics, by = "customer_id") %>%
+  mutate(
+    value_segment = cut(total_spent, 
+                       breaks = quantile(total_spent, probs = seq(0, 1, 0.25)),
+                       labels = c("Low", "Medium", "High", "Very High"))
+  )
+```
+
+Create customer value visualization
+
+```{r}
+ggplot(customer_value, aes(x = age, y = total_spent, color = value_segment)) +
+  geom_point(alpha = 0.6) +
+  geom_smooth(method = "lm", se = FALSE, color = "black", linetype = "dashed") +
+  scale_color_viridis(discrete = TRUE) +
+  labs(title = "Customer Value Distribution by Age",
+       subtitle = "Understanding high-value customer characteristics",
+       x = "Age",
+       y = "Total Amount Spent ($)",
+       color = "Value Segment") +
+  theme_minimal()
+```
+
+Assessment:
+
+################################################# 
+
+# 5. STORE PERFORMANCE ANALYSIS
+
+################################################# 
+
+This section compares performance across different store locations We'll analyze revenue and transaction patterns by store type
+
+```{r}
+store_performance <- purchases %>%
+  group_by(store_id) %>%
+  summarize(
+    total_revenue = sum(total_amount),
+    avg_transaction = mean(total_amount),
+    n_transactions = n()
+  ) %>%
+  left_join(stores, by = "store_id")
+```
+
+Create store performance visualization
+
+```{r}
+ggplot(store_performance, 
+             aes(x = reorder(location_type, total_revenue), 
+                 y = total_revenue, 
+                 fill = store_type)) +
+  geom_bar(stat = "identity") +
+  scale_fill_viridis(discrete = TRUE) +
+  coord_flip() +
+  labs(title = "Revenue by Store Location",
+       subtitle = "Comparing performance across store types",
+       x = "Location Type",
+       y = "Total Revenue ($)",
+       fill = "Store Type") +
+  theme_minimal()
+```
+
+Assessment:
+
+################################################# 
+
+# 6. SUMMARY STATISTICS
+
+################################################# 
+
+Generate overall business performance metrics
+
+```{r}
+summary_stats <- list(
+  "Total Customers" = nrow(demographics),
+  "Total Revenue" = sum(purchases$total_amount),
+  "Average Transaction" = mean(purchases$total_amount),
+  "Most Popular Drink" = names(which.max(table(purchases$drink_type))),
+  "Best Performing Store" = store_performance$location_type[which.max(store_performance$total_revenue)]
+)
+summary_stats
+```
