@@ -1,501 +1,501 @@
 customer_id,age,income,occupation,education,family_size,location_type
-1,56,45693.925814800634,Professional,PhD,5,Rural
-2,69,73591.95497869351,Student,Master,2,Urban
-3,46,45392.66736565727,Healthcare,Some College,5,Suburban
-4,32,64329.1717916395,Teacher,Master,3,Rural
-5,60,60911.436798076276,Teacher,Master,2,Rural
-6,25,46967.99304788366,Manager,Bachelor,5,Suburban
-7,38,102878.8817865065,Professional,Some College,2,Suburban
-8,56,72678.38044636023,Other,Bachelor,4,Rural
-9,36,19497.148266847857,Professional,PhD,1,Rural
-10,40,63729.08629538855,Sales,Master,2,Suburban
-11,28,46764.27070463224,Student,Some College,1,Rural
-12,28,77048.66669592448,Student,Bachelor,5,Urban
-13,41,44149.58523134599,Professional,Master,1,Rural
-14,70,57705.27117066202,Teacher,High School,2,Urban
-15,53,70099.74557960914,Teacher,Bachelor,4,Urban
-16,57,77315.10388340242,Other,Some College,5,Rural
-17,41,35994.071858884476,Student,Bachelor,2,Rural
-18,20,53309.97528318103,Other,Bachelor,5,Suburban
-19,39,50501.09377678088,Teacher,Bachelor,3,Urban
-20,70,46933.41534852576,Other,PhD,1,Rural
-21,19,95309.08480562194,Sales,High School,3,Urban
-22,41,68099.63421921911,Teacher,Some College,2,Suburban
-23,61,34782.320913299096,Retired,Some College,4,Urban
-24,47,78357.23894109552,Healthcare,Some College,5,Rural
-25,55,102443.12394025267,Student,Master,1,Rural
-26,19,80649.30521102293,Manager,Some College,5,Urban
-27,38,29612.60068091973,Sales,Some College,2,Suburban
-28,50,50315.31854267497,Technology,High School,5,Urban
-29,29,85338.22298373246,Healthcare,Master,1,Rural
-30,39,45846.61068762439,Manager,Master,2,Suburban
-31,61,68876.38856292456,Teacher,Bachelor,5,Urban
-32,42,75492.68106858674,Technology,PhD,4,Urban
-33,66,41461.39056843834,Professional,Master,2,Suburban
-34,44,58809.492878763995,Professional,Master,2,Urban
-35,59,-4825.346801381449,Sales,High School,4,Suburban
-36,45,39512.2471733142,Professional,Some College,3,Suburban
-37,33,54948.636972136796,Technology,Master,1,Suburban
-38,32,35044.33636070301,Technology,Master,3,Suburban
-39,64,92648.22607863271,Healthcare,PhD,5,Urban
-40,68,31397.172440787348,Student,High School,4,Urban
-41,61,51199.11026606032,Retired,PhD,3,Rural
-42,72,62614.81154572183,Other,Master,2,Suburban
-43,69,88825.4657813223,Professional,Master,5,Rural
-44,74,31282.756976411212,Sales,High School,5,Rural
-45,20,83263.27504309919,Professional,Bachelor,3,Urban
-46,54,60204.66122039174,Other,Bachelor,3,Urban
-47,68,40369.82697904098,Healthcare,Master,4,Urban
-48,24,69242.06948526541,Technology,Master,1,Urban
-49,38,63981.1939114694,Teacher,PhD,3,Rural
-50,26,47995.66245682411,Professional,PhD,3,Suburban
-51,56,61396.04169980038,Student,PhD,2,Rural
-52,35,52293.7280627648,Teacher,Some College,5,Rural
-53,21,62270.34690502496,Healthcare,Master,1,Urban
-54,42,73242.61349042093,Professional,Some College,2,Suburban
-55,31,91720.33632290704,Teacher,Bachelor,4,Rural
-56,67,35243.690023463016,Professional,Master,4,Urban
-57,26,102660.66749312534,Sales,Master,3,Urban
-58,43,20958.244009549962,Healthcare,High School,3,Suburban
-59,70,56964.29809928833,Retired,Master,4,Rural
-60,19,71766.34412969153,Technology,Bachelor,3,Suburban
-61,37,65619.83735470065,Manager,Master,1,Suburban
-62,45,47546.00960358812,Technology,Some College,3,Suburban
-63,64,55837.55499285449,Technology,Master,5,Rural
-64,24,50139.98130682334,Teacher,Some College,3,Urban
-65,61,48212.704861115766,Healthcare,PhD,2,Suburban
-66,25,76992.04194042049,Professional,PhD,1,Suburban
-67,64,67140.30971930095,Manager,High School,2,Rural
-68,52,46141.80809478692,Other,Master,2,Rural
-69,31,77991.99750866502,Teacher,PhD,5,Urban
-70,34,66145.99041753219,Manager,PhD,1,Urban
-71,53,76257.2423767792,Retired,High School,1,Suburban
-72,67,72592.57683847225,Sales,High School,1,Suburban
-73,57,43420.09978155856,Healthcare,Master,1,Rural
-74,21,48796.37919606061,Other,Some College,1,Suburban
-75,19,74945.87210246523,Teacher,Master,5,Rural
-76,23,72207.4053086693,Technology,Some College,3,Suburban
-77,71,59581.968120717036,Student,High School,2,Rural
-78,59,62346.54766617564,Teacher,Bachelor,1,Suburban
-79,21,85553.29791576849,Student,Master,3,Suburban
-80,71,48168.5722232834,Technology,Bachelor,3,Suburban
-81,46,70941.94762340076,Sales,Some College,2,Urban
-82,35,55956.14695132212,Healthcare,Master,5,Suburban
-83,43,55646.375935455595,Professional,Bachelor,4,Suburban
-84,61,81975.5370397438,Teacher,Bachelor,4,Urban
-85,51,76508.3269797606,Technology,Master,3,Urban
-86,27,76270.19272001277,Teacher,Bachelor,2,Suburban
-87,53,86109.57614308658,Retired,Master,4,Rural
-88,31,60420.076832655184,Sales,Bachelor,3,Suburban
-89,48,73639.05942589928,Retired,High School,5,Rural
-90,65,53794.66486813088,Manager,Master,4,Suburban
-91,32,66483.32704976884,Healthcare,High School,3,Rural
-92,25,57397.13891264631,Manager,PhD,3,Suburban
-93,31,61939.919299854366,Teacher,High School,1,Urban
-94,40,71903.14050873827,Other,Bachelor,5,Rural
-95,74,43635.58633533055,Other,Some College,1,Suburban
-96,57,101847.7455137092,Healthcare,High School,2,Suburban
-97,38,39879.65237000596,Sales,High School,1,Urban
-98,33,35716.227744245356,Sales,High School,1,Rural
-99,62,83162.21747000136,Technology,Some College,4,Rural
-100,35,75833.25387925871,Teacher,Some College,3,Rural
-101,64,72482.3963410431,Manager,High School,5,Urban
-102,70,72566.9101852856,Other,PhD,1,Rural
-103,41,59755.06454306171,Retired,Some College,5,Rural
-104,43,42054.91257028337,Professional,Some College,1,Suburban
-105,42,61516.091163874524,Student,Some College,2,Suburban
-106,62,46456.76576975777,Professional,Master,1,Urban
-107,58,79502.39466835503,Manager,High School,4,Rural
-108,46,57058.852369957225,Manager,PhD,3,Suburban
-109,32,43490.05606414977,Sales,Some College,2,Urban
-110,62,53572.283166940135,Professional,Master,1,Rural
-111,18,68258.62908551248,Sales,Bachelor,5,Urban
-112,42,48725.508943920504,Sales,Bachelor,2,Rural
-113,24,43555.59208867137,Retired,Some College,2,Suburban
-114,26,64873.744229838245,Other,PhD,1,Rural
-115,41,64899.33142217446,Healthcare,PhD,2,Rural
-116,18,49861.1364925774,Other,High School,5,Rural
-117,61,50579.23388763354,Student,Some College,2,Rural
-118,25,64640.99874715273,Professional,Bachelor,5,Urban
-119,41,31038.313170053516,Other,High School,1,Rural
-120,28,31850.724512468896,Healthcare,PhD,3,Urban
-121,68,45631.11557495128,Technology,High School,2,Rural
-122,34,55731.056965763055,Professional,Bachelor,3,Rural
-123,25,66218.15131196009,Healthcare,PhD,5,Urban
-124,52,89507.12433899104,Sales,Master,2,Suburban
-125,52,77153.19246404039,Manager,Master,4,Suburban
-126,50,56801.229400731456,Retired,Some College,3,Urban
-127,22,59619.67584194622,Student,High School,2,Rural
-128,59,39949.41270724383,Healthcare,PhD,3,Suburban
-129,56,59629.7372801522,Other,Some College,2,Rural
-130,58,54226.82722159723,Manager,High School,1,Urban
-131,45,66454.37120676179,Other,Bachelor,3,Urban
-132,24,43455.38112895354,Professional,PhD,4,Suburban
-133,26,70386.93028482345,Healthcare,High School,4,Suburban
-134,25,90654.77826005155,Other,PhD,5,Rural
-135,29,57824.79703086285,Teacher,High School,2,Suburban
-136,51,68034.23444197883,Manager,Bachelor,3,Urban
-137,50,73802.87983422226,Technology,PhD,5,Urban
-138,65,51975.59056228327,Manager,Master,3,Urban
-139,72,64481.84963620834,Other,Bachelor,2,Rural
-140,40,60251.8480156359,Other,High School,4,Suburban
-141,41,61953.52197097663,Student,PhD,1,Rural
-142,54,44539.80432289067,Technology,Bachelor,4,Rural
-143,52,60490.203485178856,Retired,High School,5,Suburban
-144,61,69959.965824909,Student,Master,1,Urban
-145,57,89022.87215590084,Professional,Master,5,Suburban
-146,39,79185.41652170414,Technology,High School,2,Suburban
-147,44,103063.64915023113,Healthcare,Master,1,Suburban
-148,52,44653.048742239014,Teacher,Bachelor,5,Rural
-149,18,77446.41273441356,Student,Master,2,Suburban
-150,52,63666.84011476704,Teacher,Some College,4,Urban
-151,54,103796.05866435345,Professional,Master,2,Suburban
-152,64,43834.03429289697,Professional,Some College,3,Urban
-153,31,43205.56315638448,Retired,PhD,2,Urban
-154,20,48012.14709111956,Professional,Bachelor,2,Urban
-155,18,17522.08551380386,Other,PhD,3,Rural
-156,22,49484.899566384775,Manager,PhD,5,Rural
-157,43,44817.34676892604,Manager,Master,5,Rural
-158,72,63007.87572952415,Retired,Master,2,Suburban
-159,31,66835.11951554319,Other,Master,3,Rural
-160,56,97523.41678431773,Manager,PhD,3,Suburban
-161,44,79008.476763721,Healthcare,Bachelor,4,Urban
-162,26,48461.92688675194,Other,Bachelor,5,Suburban
-163,32,42031.70657303284,Sales,Some College,1,Urban
-164,32,69838.38343013011,Teacher,High School,5,Suburban
-165,43,33595.335859587154,Other,Bachelor,5,Rural
-166,59,96629.17531708707,Teacher,Master,4,Urban
-167,30,83588.80241442574,Healthcare,Some College,1,Suburban
-168,68,50616.4869579059,Sales,Master,4,Suburban
-169,49,25737.30941818245,Technology,PhD,1,Rural
-170,56,87077.44748330826,Retired,PhD,2,Rural
-171,66,57709.20309494764,Other,Master,1,Rural
-172,69,84756.32623946923,Retired,Bachelor,4,Suburban
-173,49,28111.44682411266,Professional,High School,5,Rural
-174,21,48012.499540924546,Teacher,Master,1,Suburban
-175,47,60104.87399436366,Teacher,Bachelor,1,Rural
-176,54,60939.61187529484,Professional,Some College,3,Suburban
-177,40,50998.69057041513,Technology,Master,5,Urban
-178,56,72456.99864694997,Student,Some College,2,Rural
-179,62,38647.59141234811,Other,Bachelor,4,Urban
-180,32,57152.41029957413,Teacher,Bachelor,2,Suburban
-181,60,62405.912634237975,Teacher,Bachelor,5,Urban
-182,46,70288.77668117498,Student,Bachelor,1,Rural
-183,53,74232.2975617778,Professional,PhD,1,Rural
-184,30,37507.15816324262,Student,Bachelor,5,Suburban
-185,49,29317.716585287555,Teacher,PhD,1,Rural
-186,24,85553.53643797018,Professional,High School,1,Urban
-187,68,66646.28023959184,Student,PhD,1,Rural
-188,39,45030.26926886893,Technology,Some College,4,Urban
-189,45,91023.03951045046,Professional,High School,4,Rural
-190,19,62313.49268585717,Other,Some College,3,Suburban
-191,59,83585.94368127652,Teacher,Master,2,Rural
-192,62,61350.36962820218,Healthcare,Master,5,Suburban
-193,74,101214.95849763975,Retired,PhD,5,Rural
-194,70,95106.81684886408,Teacher,Some College,5,Suburban
-195,23,55020.71703041853,Other,Master,3,Urban
-196,45,79431.4190190871,Manager,Master,4,Urban
-197,45,72907.51899170295,Retired,Master,3,Urban
-198,61,87372.63115064698,Teacher,High School,5,Urban
-199,61,40701.53078839791,Retired,High School,2,Suburban
-200,37,73721.02919996879,Sales,Bachelor,1,Suburban
-201,47,81168.48973699176,Teacher,Some College,4,Urban
-202,28,24825.21027153771,Professional,Master,4,Urban
-203,72,36334.829746684496,Professional,Some College,3,Urban
-204,45,19215.356444797988,Sales,Bachelor,4,Rural
-205,42,54611.86331110884,Technology,PhD,5,Urban
-206,56,74350.84511591925,Sales,Bachelor,5,Suburban
-207,50,90047.14104192056,Sales,Master,3,Suburban
-208,18,61481.895608395505,Retired,PhD,5,Suburban
-209,74,92572.31091142584,Student,PhD,2,Rural
-210,44,32397.970835702174,Professional,Bachelor,3,Rural
-211,74,25932.35121289691,Student,Master,2,Rural
-212,69,58889.046022067625,Sales,PhD,1,Rural
-213,30,67681.30897878614,Technology,Bachelor,2,Suburban
-214,58,59346.10503811814,Professional,Bachelor,1,Rural
-215,20,18651.15799920247,Teacher,Master,1,Rural
-216,56,58217.59920974423,Teacher,Bachelor,2,Rural
-217,23,33910.609989902936,Teacher,Bachelor,3,Urban
-218,25,73393.45097660077,Other,Bachelor,5,Suburban
-219,44,67331.96492193696,Retired,Some College,5,Rural
-220,26,41202.40427345289,Manager,High School,1,Urban
-221,54,49722.66165326613,Sales,Some College,1,Suburban
-222,50,38815.729562220964,Manager,Bachelor,3,Rural
-223,68,58746.41805453656,Healthcare,High School,4,Suburban
-224,59,79102.84641002477,Retired,PhD,2,Suburban
-225,61,40285.47907328913,Teacher,Some College,1,Urban
-226,41,70080.93031035688,Professional,Some College,5,Rural
-227,32,49394.84763255119,Retired,Some College,3,Suburban
-228,71,44142.543354753114,Other,Master,2,Urban
-229,49,57859.39280090884,Professional,Bachelor,3,Suburban
-230,49,39295.153551612515,Student,PhD,2,Suburban
-231,41,48927.013893056355,Other,PhD,2,Urban
-232,58,36042.44214822303,Student,PhD,1,Suburban
-233,69,99294.50265832778,Professional,Bachelor,3,Urban
-234,66,60705.27103943457,Teacher,High School,3,Rural
-235,66,46005.489840148286,Manager,Some College,5,Suburban
-236,69,64279.59821468444,Sales,Bachelor,5,Rural
-237,29,57753.439006183406,Retired,Some College,1,Rural
-238,56,55580.60800933554,Retired,Bachelor,1,Suburban
-239,19,72283.3340008685,Teacher,Some College,4,Urban
-240,20,75150.1542009461,Sales,Bachelor,5,Suburban
-241,66,49389.97704778945,Student,High School,2,Suburban
-242,54,48483.635187106396,Manager,PhD,3,Urban
-243,66,54498.96605696712,Sales,Some College,1,Urban
-244,73,13961.576705288302,Student,Bachelor,3,Suburban
-245,34,29696.178756028956,Sales,High School,3,Urban
-246,66,87337.48534889049,Healthcare,High School,4,Rural
-247,19,92899.35427002568,Retired,PhD,5,Urban
-248,19,55019.27920887243,Healthcare,Bachelor,1,Rural
-249,45,71531.13926111533,Sales,Some College,3,Rural
-250,71,66225.00309087073,Other,Master,1,Rural
-251,40,121577.61616910476,Retired,High School,2,Urban
-252,54,82391.49822869153,Manager,High School,4,Urban
-253,49,57441.648170384666,Teacher,PhD,2,Suburban
-254,50,40889.191187991484,Healthcare,Bachelor,1,Urban
-255,18,27871.07359484855,Teacher,Master,1,Urban
-256,36,64069.27271734446,Student,Master,5,Rural
-257,19,44872.98509431393,Other,Master,3,Urban
-258,70,31554.925808046515,Student,Bachelor,3,Urban
-259,61,47068.54231514947,Technology,Some College,2,Rural
-260,43,38369.0399277121,Student,High School,4,Urban
-261,49,93742.83270145129,Student,Bachelor,3,Rural
-262,23,77632.79513898901,Retired,Master,5,Urban
-263,49,59840.547173667655,Other,High School,2,Urban
-264,72,89598.88277780052,Other,High School,2,Suburban
-265,21,61547.36615295237,Manager,Master,5,Urban
-266,72,42774.31597343473,Student,Master,4,Rural
-267,28,90462.48154539315,Other,High School,5,Urban
-268,73,70778.20087369317,Professional,PhD,4,Suburban
-269,34,39255.07691347087,Manager,High School,5,Urban
-270,55,56193.22643832784,Professional,Some College,5,Urban
-271,41,42487.634932304856,Professional,Some College,1,Rural
-272,22,32344.00538071328,Teacher,PhD,2,Suburban
-273,69,78523.55095063282,Sales,Bachelor,5,Urban
-274,51,98188.33280940261,Professional,High School,5,Urban
-275,23,32028.648523617176,Teacher,Some College,3,Rural
-276,39,71259.38473381141,Student,High School,2,Urban
-277,28,46987.14861756346,Professional,PhD,3,Urban
-278,65,50257.49232470608,Sales,Master,2,Urban
-279,33,48152.121515222614,Other,PhD,3,Suburban
-280,50,42720.18460640368,Technology,PhD,5,Urban
-281,26,60970.43255889654,Healthcare,PhD,5,Rural
-282,23,43380.997671779245,Teacher,Some College,1,Suburban
-283,33,65409.13651559678,Technology,PhD,3,Urban
-284,46,58995.23781101726,Teacher,Master,4,Urban
-285,20,55221.03906267181,Healthcare,Master,1,Suburban
-286,37,41848.72675916804,Sales,Master,3,Urban
-287,53,48464.57338863335,Manager,Bachelor,3,Urban
-288,36,75107.82451651512,Healthcare,PhD,1,Rural
-289,43,70018.34375248762,Retired,Master,5,Suburban
-290,20,40448.89510402898,Technology,Bachelor,3,Rural
-291,36,61986.646108584515,Professional,PhD,5,Urban
-292,37,75027.74246743578,Student,PhD,1,Rural
-293,49,26611.894377572564,Retired,High School,5,Urban
-294,24,70867.2038475987,Professional,PhD,2,Suburban
-295,69,46747.52482108307,Professional,High School,4,Suburban
-296,58,71411.97337186319,Other,Some College,3,Suburban
-297,50,44734.81686914966,Teacher,Some College,4,Rural
-298,57,23902.35798670962,Other,Bachelor,5,Rural
-299,56,27449.151242336746,Healthcare,High School,3,Urban
-300,35,60961.69893322764,Manager,Some College,5,Suburban
-301,57,65194.45003442964,Technology,Some College,2,Rural
-302,18,41913.667497911825,Professional,Some College,1,Urban
-303,28,72771.84917554748,Teacher,PhD,3,Rural
-304,45,26769.598754620805,Technology,High School,2,Urban
-305,74,58678.40402705367,Healthcare,Some College,2,Rural
-306,42,35779.676004750865,Manager,High School,3,Rural
-307,67,46963.27784395682,Retired,Master,5,Rural
-308,40,60947.97342632828,Other,Master,2,Suburban
-309,48,42791.73269432095,Healthcare,PhD,4,Suburban
-310,47,52308.88911540349,Other,Master,2,Rural
-311,59,80125.85618428882,Student,Bachelor,5,Urban
-312,52,48462.16260953702,Other,High School,5,Urban
-313,24,76713.84224130283,Healthcare,Some College,4,Suburban
-314,33,37405.86290684764,Professional,Bachelor,2,Suburban
-315,43,70596.08355830566,Manager,Bachelor,5,Suburban
-316,65,88831.37241315801,Healthcare,Master,3,Rural
-317,74,10567.109997454216,Professional,High School,1,Urban
-318,69,44062.094890590466,Professional,Some College,1,Suburban
-319,66,71541.4425436108,Other,Bachelor,1,Rural
-320,19,55939.092279140146,Manager,PhD,2,Suburban
-321,18,67422.91746742617,Healthcare,Some College,4,Urban
-322,65,47920.29626568359,Healthcare,Master,5,Urban
-323,29,61731.795749458,Teacher,High School,3,Suburban
-324,22,56886.45529215841,Technology,PhD,3,Rural
-325,54,83355.64123319615,Teacher,Some College,2,Urban
-326,49,65088.416866024265,Healthcare,Some College,1,Urban
-327,72,66752.05324150404,Other,Bachelor,2,Urban
-328,26,51762.460677550655,Retired,Some College,4,Suburban
-329,58,50247.87551855013,Healthcare,High School,4,Rural
-330,52,51348.836243607584,Student,High School,5,Rural
-331,36,67889.04284756594,Professional,Some College,5,Rural
-332,65,51580.31038359474,Sales,Bachelor,4,Rural
-333,33,65795.49713792827,Healthcare,PhD,4,Rural
-334,20,101508.01597290878,Student,PhD,4,Suburban
-335,37,77422.49406863385,Student,Bachelor,2,Suburban
-336,41,53479.52935664318,Technology,Master,4,Rural
-337,71,84024.27844327889,Manager,High School,3,Rural
-338,73,51838.49253956897,Healthcare,Master,1,Suburban
-339,50,19237.50929644292,Manager,Bachelor,4,Suburban
-340,41,39838.27378165192,Retired,Master,1,Rural
-341,69,22584.161579482883,Other,Bachelor,2,Rural
-342,28,52969.730319173825,Sales,PhD,1,Suburban
-343,66,60368.367583791034,Other,PhD,2,Urban
-344,25,93528.74624550565,Student,Master,3,Rural
-345,53,66538.54747528325,Professional,Master,2,Urban
-346,55,55617.98942382271,Professional,High School,2,Rural
-347,57,76588.11162366979,Manager,PhD,5,Rural
-348,37,15777.2938198423,Other,High School,4,Rural
-349,52,64712.29116217132,Student,Master,4,Rural
-350,65,75417.30387773934,Technology,Bachelor,3,Urban
-351,42,30428.27508440317,Other,PhD,3,Suburban
-352,52,82875.08086413858,Manager,Bachelor,4,Suburban
-353,42,66769.92814988828,Sales,High School,5,Urban
-354,46,51694.24172198398,Manager,High School,4,Suburban
-355,35,72655.6373221257,Student,Some College,5,Suburban
-356,63,105413.85715608792,Healthcare,PhD,3,Suburban
-357,35,63637.3251011699,Technology,PhD,1,Suburban
-358,19,64964.41172600672,Student,High School,3,Suburban
-359,71,50812.782009195114,Technology,Bachelor,3,Rural
-360,52,43003.112610704164,Teacher,PhD,2,Urban
-361,33,76606.71633088491,Teacher,High School,2,Suburban
-362,58,42878.323481822656,Professional,Some College,2,Suburban
-363,53,61431.32474438785,Technology,Master,2,Suburban
-364,50,50446.851064697665,Other,PhD,5,Rural
-365,21,69579.59651492783,Sales,Master,4,Suburban
-366,50,66673.24210573896,Manager,Bachelor,1,Suburban
-367,31,80750.79888515799,Teacher,Some College,3,Urban
-368,38,49799.672022905055,Manager,PhD,5,Rural
-369,65,54602.50129413258,Manager,Master,1,Suburban
-370,37,40424.72568435385,Sales,Master,5,Urban
-371,73,51114.13479847777,Student,High School,5,Urban
-372,25,67546.00986089704,Manager,Master,3,Urban
-373,24,75139.77233290704,Technology,Bachelor,4,Urban
-374,20,41556.69351644749,Sales,Master,2,Suburban
-375,34,77392.1184021132,Teacher,Bachelor,4,Urban
-376,50,87112.75717609902,Healthcare,Bachelor,3,Rural
-377,65,68268.69806447401,Manager,High School,3,Rural
-378,29,97535.91625116131,Professional,Some College,3,Suburban
-379,68,44524.21601792854,Sales,Bachelor,1,Urban
-380,39,35106.90593377166,Student,Master,4,Rural
-381,72,24425.59502191443,Retired,Master,4,Urban
-382,39,89920.88622978366,Teacher,Bachelor,5,Rural
-383,63,73087.31312708116,Teacher,Master,5,Rural
-384,47,58888.3065817909,Retired,PhD,5,Rural
-385,55,65599.3725263964,Technology,High School,3,Suburban
-386,55,37490.21905403247,Healthcare,Master,4,Rural
-387,62,108915.03959233653,Teacher,High School,3,Urban
-388,68,62584.42363950455,Teacher,Bachelor,1,Suburban
-389,71,62187.895892097855,Student,Bachelor,5,Suburban
-390,25,74515.33247797383,Teacher,Bachelor,3,Rural
-391,44,69620.18463473427,Sales,High School,3,Suburban
-392,44,64477.68048558263,Technology,Master,1,Rural
-393,51,44190.51089109376,Healthcare,PhD,2,Urban
-394,38,69429.36714271992,Professional,High School,4,Suburban
-395,47,97640.48992950068,Healthcare,PhD,2,Rural
-396,50,86908.40092309956,Technology,Master,5,Suburban
-397,45,91863.73253278794,Other,Master,3,Suburban
-398,64,49775.6864713763,Sales,High School,1,Urban
-399,50,40207.903594828385,Other,Some College,1,Rural
-400,22,57484.26159800704,Technology,PhD,4,Rural
-401,65,61114.498245773895,Student,Bachelor,2,Urban
-402,36,81883.83036941897,Professional,PhD,4,Urban
-403,21,26150.707405703615,Healthcare,Master,3,Rural
-404,52,90591.00638921227,Manager,Master,4,Suburban
-405,66,56839.842028420215,Healthcare,High School,1,Urban
-406,34,51462.3786010516,Student,Some College,1,Urban
-407,61,39757.91249479665,Professional,Bachelor,5,Suburban
-408,45,26902.866562684612,Sales,PhD,5,Rural
-409,47,76463.41167923828,Technology,Some College,3,Suburban
-410,46,61466.359343768076,Technology,Bachelor,2,Urban
-411,63,34200.782005178924,Sales,Master,4,Suburban
-412,70,34098.42455872768,Other,Master,3,Rural
-413,23,53284.306014197435,Professional,High School,5,Urban
-414,52,93380.43050578787,Sales,High School,4,Suburban
-415,58,54808.1729727279,Teacher,PhD,5,Rural
-416,54,29937.140937637876,Healthcare,Some College,4,Rural
-417,41,55085.138718281116,Student,Some College,2,Rural
-418,46,54545.52860504659,Sales,Bachelor,3,Rural
-419,66,6062.267141168566,Student,PhD,4,Rural
-420,63,58914.102669643755,Other,High School,1,Rural
-421,70,55381.30939582644,Other,PhD,1,Urban
-422,48,73924.12729626837,Teacher,Master,4,Rural
-423,52,96979.1218989069,Technology,High School,4,Rural
-424,50,82531.30059095514,Sales,Some College,4,Rural
-425,69,54622.22618890339,Professional,High School,1,Suburban
-426,38,37869.48182516659,Technology,Master,1,Urban
-427,49,111467.1960649972,Technology,High School,4,Urban
-428,40,61184.368680289765,Professional,Some College,5,Suburban
-429,50,60278.58583825892,Healthcare,Master,5,Rural
-430,20,59517.49825779993,Other,Bachelor,2,Suburban
-431,35,63961.6952153571,Healthcare,PhD,3,Suburban
-432,42,57112.79176152115,Sales,Bachelor,5,Suburban
-433,59,48526.75986239527,Technology,Master,1,Urban
-434,48,49062.821175192155,Sales,Master,5,Urban
-435,71,59344.93459568003,Healthcare,Master,2,Urban
-436,20,49131.5045773247,Other,Some College,2,Rural
-437,57,45743.084346456715,Manager,Master,3,Rural
-438,63,62128.60455383794,Teacher,PhD,5,Suburban
-439,41,54900.455651582895,Sales,Some College,1,Urban
-440,67,90079.85977165378,Sales,Master,1,Urban
-441,49,6980.603832139757,Manager,Some College,4,Rural
-442,64,81830.13703844923,Healthcare,PhD,1,Rural
-443,39,84921.70384995258,Sales,PhD,3,Urban
-444,40,18532.195351837014,Other,Some College,3,Urban
-445,19,53146.24811839302,Student,High School,1,Rural
-446,44,52571.18268008417,Healthcare,Bachelor,1,Rural
-447,59,31849.766105643575,Healthcare,Master,4,Urban
-448,19,44443.66624818249,Teacher,Bachelor,1,Suburban
-449,43,37788.483090683425,Sales,PhD,4,Suburban
-450,34,95045.40886847246,Technology,Bachelor,4,Suburban
-451,57,78713.56786294922,Retired,High School,1,Suburban
-452,50,85431.10189988317,Retired,Bachelor,2,Urban
-453,26,74433.4412808647,Retired,Bachelor,2,Suburban
-454,60,37418.96457565542,Teacher,PhD,4,Suburban
-455,71,49509.59467440453,Other,PhD,1,Rural
-456,65,69787.49122455835,Retired,Master,2,Suburban
-457,56,35557.44382216109,Manager,Some College,1,Rural
-458,46,74259.96860344776,Professional,Master,1,Rural
-459,59,55193.4920368373,Healthcare,PhD,1,Urban
-460,72,52503.58384900805,Other,Master,5,Urban
-461,43,74219.19936406983,Technology,Bachelor,1,Urban
-462,52,68885.2662297208,Professional,Bachelor,5,Urban
-463,67,52780.6766836184,Teacher,PhD,4,Rural
-464,42,83186.59606728496,Healthcare,PhD,2,Urban
-465,41,38378.73344800205,Teacher,Master,2,Rural
-466,30,72318.71213888528,Teacher,Master,2,Urban
-467,24,71862.02515936768,Manager,Bachelor,2,Suburban
-468,74,53809.07121372019,Student,Some College,2,Suburban
-469,53,66522.66044484236,Student,Some College,2,Rural
-470,62,34977.72847229394,Teacher,PhD,2,Suburban
-471,37,78480.54038413802,Retired,Master,4,Suburban
-472,18,56301.95727114022,Professional,Some College,1,Rural
-473,25,49545.539589619206,Retired,Master,3,Suburban
-474,63,80980.18451673779,Sales,High School,5,Suburban
-475,33,45913.126189144816,Teacher,Bachelor,3,Suburban
-476,31,31830.774072728807,Sales,Master,3,Urban
-477,29,28867.416529521925,Retired,Master,1,Rural
-478,68,72120.1990269128,Sales,Master,1,Urban
-479,40,34391.41295007434,Teacher,Some College,1,Suburban
-480,32,95095.8836396873,Manager,Master,2,Suburban
-481,45,18361.411842325557,Student,High School,4,Urban
-482,51,93929.12736580076,Professional,Some College,2,Suburban
-483,19,64220.34934405237,Sales,PhD,4,Rural
-484,49,58065.73776259215,Teacher,PhD,4,Rural
-485,40,49101.618263821,Manager,Bachelor,3,Rural
-486,39,67982.72228704141,Other,High School,3,Suburban
-487,68,59247.30595150303,Retired,Master,4,Rural
-488,42,82066.03764033043,Student,High School,4,Rural
-489,39,62284.552973240796,Other,PhD,2,Suburban
-490,39,63006.035229237554,Teacher,Master,2,Urban
-491,66,52727.75575572289,Professional,High School,3,Urban
-492,69,58861.08752557865,Retired,Some College,1,Suburban
-493,59,66156.03537784118,Manager,Master,4,Rural
-494,23,25796.632146867487,Retired,Some College,2,Urban
-495,32,33036.291557885736,Other,High School,3,Urban
-496,71,74865.2818804543,Other,Master,2,Urban
-497,60,63417.30876255884,Technology,Bachelor,4,Suburban
-498,54,56320.33327294642,Retired,Bachelor,4,Urban
-499,50,60368.678661307866,Other,PhD,5,Urban
-500,25,66951.63410723342,Sales,Master,1,Suburban
+1,56,"$45,693.93",Professional,PhD,5,Rural
+2,69,"$73,591.95",Student,Master,2,Urban
+3,46,"$45,392.67",Healthcare,Some College,5,Suburban
+4,32,"$64,329.17",Teacher,Master,3,Rural
+5,60,"$60,911.44",Teacher,Master,2,Rural
+6,25,"$46,967.99",Manager,Bachelor,5,Suburban
+7,38,"$102,878.88",Professional,Some College,2,Suburban
+8,56,"$72,678.38",Other,Bachelor,4,Rural
+9,36,"$19,497.15",Professional,PhD,1,Rural
+10,40,"$63,729.09",Sales,Master,2,Suburban
+11,28,"$46,764.27",Student,Some College,1,Rural
+12,28,"$77,048.67",Student,Bachelor,5,Urban
+13,41,"$44,149.59",Professional,Master,1,Rural
+14,70,"$57,705.27",Teacher,High School,2,Urban
+15,53,"$70,099.75",Teacher,Bachelor,4,Urban
+16,57,"$77,315.10",Other,Some College,5,Rural
+17,41,"$35,994.07",Student,Bachelor,2,Rural
+18,20,"$53,309.98",Other,Bachelor,5,Suburban
+19,39,"$50,501.09",Teacher,Bachelor,3,Urban
+20,70,"$46,933.42",Other,PhD,1,Rural
+21,19,"$95,309.08",Sales,High School,3,Urban
+22,41,"$68,099.63",Teacher,Some College,2,Suburban
+23,61,"$34,782.32",Retired,Some College,4,Urban
+24,47,"$78,357.24",Healthcare,Some College,5,Rural
+25,55,"$102,443.12",Student,Master,1,Rural
+26,19,"$80,649.31",Manager,Some College,5,Urban
+27,38,"$29,612.60",Sales,Some College,2,Suburban
+28,50,"$50,315.32",Technology,High School,5,Urban
+29,29,"$85,338.22",Healthcare,Master,1,Rural
+30,39,"$45,846.61",Manager,Master,2,Suburban
+31,61,"$68,876.39",Teacher,Bachelor,5,Urban
+32,42,"$75,492.68",Technology,PhD,4,Urban
+33,66,"$41,461.39",Professional,Master,2,Suburban
+34,44,"$58,809.49",Professional,Master,2,Urban
+35,59,"-$4,825.35",Sales,High School,4,Suburban
+36,45,"$39,512.25",Professional,Some College,3,Suburban
+37,33,"$54,948.64",Technology,Master,1,Suburban
+38,32,"$35,044.34",Technology,Master,3,Suburban
+39,64,"$92,648.23",Healthcare,PhD,5,Urban
+40,68,"$31,397.17",Student,High School,4,Urban
+41,61,"$51,199.11",Retired,PhD,3,Rural
+42,72,"$62,614.81",Other,Master,2,Suburban
+43,69,"$88,825.47",Professional,Master,5,Rural
+44,74,"$31,282.76",Sales,High School,5,Rural
+45,20,"$83,263.28",Professional,Bachelor,3,Urban
+46,54,"$60,204.66",Other,Bachelor,3,Urban
+47,68,"$40,369.83",Healthcare,Master,4,Urban
+48,24,"$69,242.07",Technology,Master,1,Urban
+49,38,"$63,981.19",Teacher,PhD,3,Rural
+50,26,"$47,995.66",Professional,PhD,3,Suburban
+51,56,"$61,396.04",Student,PhD,2,Rural
+52,35,"$52,293.73",Teacher,Some College,5,Rural
+53,21,"$62,270.35",Healthcare,Master,1,Urban
+54,42,"$73,242.61",Professional,Some College,2,Suburban
+55,31,"$91,720.34",Teacher,Bachelor,4,Rural
+56,67,"$35,243.69",Professional,Master,4,Urban
+57,26,"$102,660.67",Sales,Master,3,Urban
+58,43,"$20,958.24",Healthcare,High School,3,Suburban
+59,70,"$56,964.30",Retired,Master,4,Rural
+60,19,"$71,766.34",Technology,Bachelor,3,Suburban
+61,37,"$65,619.84",Manager,Master,1,Suburban
+62,45,"$47,546.01",Technology,Some College,3,Suburban
+63,64,"$55,837.55",Technology,Master,5,Rural
+64,24,"$50,139.98",Teacher,Some College,3,Urban
+65,61,"$48,212.70",Healthcare,PhD,2,Suburban
+66,25,"$76,992.04",Professional,PhD,1,Suburban
+67,64,"$67,140.31",Manager,High School,2,Rural
+68,52,"$46,141.81",Other,Master,2,Rural
+69,31,"$77,992.00",Teacher,PhD,5,Urban
+70,34,"$66,145.99",Manager,PhD,1,Urban
+71,53,"$76,257.24",Retired,High School,1,Suburban
+72,67,"$72,592.58",Sales,High School,1,Suburban
+73,57,"$43,420.10",Healthcare,Master,1,Rural
+74,21,"$48,796.38",Other,Some College,1,Suburban
+75,19,"$74,945.87",Teacher,Master,5,Rural
+76,23,"$72,207.41",Technology,Some College,3,Suburban
+77,71,"$59,581.97",Student,High School,2,Rural
+78,59,"$62,346.55",Teacher,Bachelor,1,Suburban
+79,21,"$85,553.30",Student,Master,3,Suburban
+80,71,"$48,168.57",Technology,Bachelor,3,Suburban
+81,46,"$70,941.95",Sales,Some College,2,Urban
+82,35,"$55,956.15",Healthcare,Master,5,Suburban
+83,43,"$55,646.38",Professional,Bachelor,4,Suburban
+84,61,"$81,975.54",Teacher,Bachelor,4,Urban
+85,51,"$76,508.33",Technology,Master,3,Urban
+86,27,"$76,270.19",Teacher,Bachelor,2,Suburban
+87,53,"$86,109.58",Retired,Master,4,Rural
+88,31,"$60,420.08",Sales,Bachelor,3,Suburban
+89,48,"$73,639.06",Retired,High School,5,Rural
+90,65,"$53,794.66",Manager,Master,4,Suburban
+91,32,"$66,483.33",Healthcare,High School,3,Rural
+92,25,"$57,397.14",Manager,PhD,3,Suburban
+93,31,"$61,939.92",Teacher,High School,1,Urban
+94,40,"$71,903.14",Other,Bachelor,5,Rural
+95,74,"$43,635.59",Other,Some College,1,Suburban
+96,57,"$101,847.75",Healthcare,High School,2,Suburban
+97,38,"$39,879.65",Sales,High School,1,Urban
+98,33,"$35,716.23",Sales,High School,1,Rural
+99,62,"$83,162.22",Technology,Some College,4,Rural
+100,35,"$75,833.25",Teacher,Some College,3,Rural
+101,64,"$72,482.40",Manager,High School,5,Urban
+102,70,"$72,566.91",Other,PhD,1,Rural
+103,41,"$59,755.06",Retired,Some College,5,Rural
+104,43,"$42,054.91",Professional,Some College,1,Suburban
+105,42,"$61,516.09",Student,Some College,2,Suburban
+106,62,"$46,456.77",Professional,Master,1,Urban
+107,58,"$79,502.39",Manager,High School,4,Rural
+108,46,"$57,058.85",Manager,PhD,3,Suburban
+109,32,"$43,490.06",Sales,Some College,2,Urban
+110,62,"$53,572.28",Professional,Master,1,Rural
+111,18,"$68,258.63",Sales,Bachelor,5,Urban
+112,42,"$48,725.51",Sales,Bachelor,2,Rural
+113,24,"$43,555.59",Retired,Some College,2,Suburban
+114,26,"$64,873.74",Other,PhD,1,Rural
+115,41,"$64,899.33",Healthcare,PhD,2,Rural
+116,18,"$49,861.14",Other,High School,5,Rural
+117,61,"$50,579.23",Student,Some College,2,Rural
+118,25,"$64,641.00",Professional,Bachelor,5,Urban
+119,41,"$31,038.31",Other,High School,1,Rural
+120,28,"$31,850.72",Healthcare,PhD,3,Urban
+121,68,"$45,631.12",Technology,High School,2,Rural
+122,34,"$55,731.06",Professional,Bachelor,3,Rural
+123,25,"$66,218.15",Healthcare,PhD,5,Urban
+124,52,"$89,507.12",Sales,Master,2,Suburban
+125,52,"$77,153.19",Manager,Master,4,Suburban
+126,50,"$56,801.23",Retired,Some College,3,Urban
+127,22,"$59,619.68",Student,High School,2,Rural
+128,59,"$39,949.41",Healthcare,PhD,3,Suburban
+129,56,"$59,629.74",Other,Some College,2,Rural
+130,58,"$54,226.83",Manager,High School,1,Urban
+131,45,"$66,454.37",Other,Bachelor,3,Urban
+132,24,"$43,455.38",Professional,PhD,4,Suburban
+133,26,"$70,386.93",Healthcare,High School,4,Suburban
+134,25,"$90,654.78",Other,PhD,5,Rural
+135,29,"$57,824.80",Teacher,High School,2,Suburban
+136,51,"$68,034.23",Manager,Bachelor,3,Urban
+137,50,"$73,802.88",Technology,PhD,5,Urban
+138,65,"$51,975.59",Manager,Master,3,Urban
+139,72,"$64,481.85",Other,Bachelor,2,Rural
+140,40,"$60,251.85",Other,High School,4,Suburban
+141,41,"$61,953.52",Student,PhD,1,Rural
+142,54,"$44,539.80",Technology,Bachelor,4,Rural
+143,52,"$60,490.20",Retired,High School,5,Suburban
+144,61,"$69,959.97",Student,Master,1,Urban
+145,57,"$89,022.87",Professional,Master,5,Suburban
+146,39,"$79,185.42",Technology,High School,2,Suburban
+147,44,"$103,063.65",Healthcare,Master,1,Suburban
+148,52,"$44,653.05",Teacher,Bachelor,5,Rural
+149,18,"$77,446.41",Student,Master,2,Suburban
+150,52,"$63,666.84",Teacher,Some College,4,Urban
+151,54,"$103,796.06",Professional,Master,2,Suburban
+152,64,"$43,834.03",Professional,Some College,3,Urban
+153,31,"$43,205.56",Retired,PhD,2,Urban
+154,20,"$48,012.15",Professional,Bachelor,2,Urban
+155,18,"$17,522.09",Other,PhD,3,Rural
+156,22,"$49,484.90",Manager,PhD,5,Rural
+157,43,"$44,817.35",Manager,Master,5,Rural
+158,72,"$63,007.88",Retired,Master,2,Suburban
+159,31,"$66,835.12",Other,Master,3,Rural
+160,56,"$97,523.42",Manager,PhD,3,Suburban
+161,44,"$79,008.48",Healthcare,Bachelor,4,Urban
+162,26,"$48,461.93",Other,Bachelor,5,Suburban
+163,32,"$42,031.71",Sales,Some College,1,Urban
+164,32,"$69,838.38",Teacher,High School,5,Suburban
+165,43,"$33,595.34",Other,Bachelor,5,Rural
+166,59,"$96,629.18",Teacher,Master,4,Urban
+167,30,"$83,588.80",Healthcare,Some College,1,Suburban
+168,68,"$50,616.49",Sales,Master,4,Suburban
+169,49,"$25,737.31",Technology,PhD,1,Rural
+170,56,"$87,077.45",Retired,PhD,2,Rural
+171,66,"$57,709.20",Other,Master,1,Rural
+172,69,"$84,756.33",Retired,Bachelor,4,Suburban
+173,49,"$28,111.45",Professional,High School,5,Rural
+174,21,"$48,012.50",Teacher,Master,1,Suburban
+175,47,"$60,104.87",Teacher,Bachelor,1,Rural
+176,54,"$60,939.61",Professional,Some College,3,Suburban
+177,40,"$50,998.69",Technology,Master,5,Urban
+178,56,"$72,457.00",Student,Some College,2,Rural
+179,62,"$38,647.59",Other,Bachelor,4,Urban
+180,32,"$57,152.41",Teacher,Bachelor,2,Suburban
+181,60,"$62,405.91",Teacher,Bachelor,5,Urban
+182,46,"$70,288.78",Student,Bachelor,1,Rural
+183,53,"$74,232.30",Professional,PhD,1,Rural
+184,30,"$37,507.16",Student,Bachelor,5,Suburban
+185,49,"$29,317.72",Teacher,PhD,1,Rural
+186,24,"$85,553.54",Professional,High School,1,Urban
+187,68,"$66,646.28",Student,PhD,1,Rural
+188,39,"$45,030.27",Technology,Some College,4,Urban
+189,45,"$91,023.04",Professional,High School,4,Rural
+190,19,"$62,313.49",Other,Some College,3,Suburban
+191,59,"$83,585.94",Teacher,Master,2,Rural
+192,62,"$61,350.37",Healthcare,Master,5,Suburban
+193,74,"$101,214.96",Retired,PhD,5,Rural
+194,70,"$95,106.82",Teacher,Some College,5,Suburban
+195,23,"$55,020.72",Other,Master,3,Urban
+196,45,"$79,431.42",Manager,Master,4,Urban
+197,45,"$72,907.52",Retired,Master,3,Urban
+198,61,"$87,372.63",Teacher,High School,5,Urban
+199,61,"$40,701.53",Retired,High School,2,Suburban
+200,37,"$73,721.03",Sales,Bachelor,1,Suburban
+201,47,"$81,168.49",Teacher,Some College,4,Urban
+202,28,"$24,825.21",Professional,Master,4,Urban
+203,72,"$36,334.83",Professional,Some College,3,Urban
+204,45,"$19,215.36",Sales,Bachelor,4,Rural
+205,42,"$54,611.86",Technology,PhD,5,Urban
+206,56,"$74,350.85",Sales,Bachelor,5,Suburban
+207,50,"$90,047.14",Sales,Master,3,Suburban
+208,18,"$61,481.90",Retired,PhD,5,Suburban
+209,74,"$92,572.31",Student,PhD,2,Rural
+210,44,"$32,397.97",Professional,Bachelor,3,Rural
+211,74,"$25,932.35",Student,Master,2,Rural
+212,69,"$58,889.05",Sales,PhD,1,Rural
+213,30,"$67,681.31",Technology,Bachelor,2,Suburban
+214,58,"$59,346.11",Professional,Bachelor,1,Rural
+215,20,"$18,651.16",Teacher,Master,1,Rural
+216,56,"$58,217.60",Teacher,Bachelor,2,Rural
+217,23,"$33,910.61",Teacher,Bachelor,3,Urban
+218,25,"$73,393.45",Other,Bachelor,5,Suburban
+219,44,"$67,331.96",Retired,Some College,5,Rural
+220,26,"$41,202.40",Manager,High School,1,Urban
+221,54,"$49,722.66",Sales,Some College,1,Suburban
+222,50,"$38,815.73",Manager,Bachelor,3,Rural
+223,68,"$58,746.42",Healthcare,High School,4,Suburban
+224,59,"$79,102.85",Retired,PhD,2,Suburban
+225,61,"$40,285.48",Teacher,Some College,1,Urban
+226,41,"$70,080.93",Professional,Some College,5,Rural
+227,32,"$49,394.85",Retired,Some College,3,Suburban
+228,71,"$44,142.54",Other,Master,2,Urban
+229,49,"$57,859.39",Professional,Bachelor,3,Suburban
+230,49,"$39,295.15",Student,PhD,2,Suburban
+231,41,"$48,927.01",Other,PhD,2,Urban
+232,58,"$36,042.44",Student,PhD,1,Suburban
+233,69,"$99,294.50",Professional,Bachelor,3,Urban
+234,66,"$60,705.27",Teacher,High School,3,Rural
+235,66,"$46,005.49",Manager,Some College,5,Suburban
+236,69,"$64,279.60",Sales,Bachelor,5,Rural
+237,29,"$57,753.44",Retired,Some College,1,Rural
+238,56,"$55,580.61",Retired,Bachelor,1,Suburban
+239,19,"$72,283.33",Teacher,Some College,4,Urban
+240,20,"$75,150.15",Sales,Bachelor,5,Suburban
+241,66,"$49,389.98",Student,High School,2,Suburban
+242,54,"$48,483.64",Manager,PhD,3,Urban
+243,66,"$54,498.97",Sales,Some College,1,Urban
+244,73,"$13,961.58",Student,Bachelor,3,Suburban
+245,34,"$29,696.18",Sales,High School,3,Urban
+246,66,"$87,337.49",Healthcare,High School,4,Rural
+247,19,"$92,899.35",Retired,PhD,5,Urban
+248,19,"$55,019.28",Healthcare,Bachelor,1,Rural
+249,45,"$71,531.14",Sales,Some College,3,Rural
+250,71,"$66,225.00",Other,Master,1,Rural
+251,40,"$121,577.62",Retired,High School,2,Urban
+252,54,"$82,391.50",Manager,High School,4,Urban
+253,49,"$57,441.65",Teacher,PhD,2,Suburban
+254,50,"$40,889.19",Healthcare,Bachelor,1,Urban
+255,18,"$27,871.07",Teacher,Master,1,Urban
+256,36,"$64,069.27",Student,Master,5,Rural
+257,19,"$44,872.99",Other,Master,3,Urban
+258,70,"$31,554.93",Student,Bachelor,3,Urban
+259,61,"$47,068.54",Technology,Some College,2,Rural
+260,43,"$38,369.04",Student,High School,4,Urban
+261,49,"$93,742.83",Student,Bachelor,3,Rural
+262,23,"$77,632.80",Retired,Master,5,Urban
+263,49,"$59,840.55",Other,High School,2,Urban
+264,72,"$89,598.88",Other,High School,2,Suburban
+265,21,"$61,547.37",Manager,Master,5,Urban
+266,72,"$42,774.32",Student,Master,4,Rural
+267,28,"$90,462.48",Other,High School,5,Urban
+268,73,"$70,778.20",Professional,PhD,4,Suburban
+269,34,"$39,255.08",Manager,High School,5,Urban
+270,55,"$56,193.23",Professional,Some College,5,Urban
+271,41,"$42,487.63",Professional,Some College,1,Rural
+272,22,"$32,344.01",Teacher,PhD,2,Suburban
+273,69,"$78,523.55",Sales,Bachelor,5,Urban
+274,51,"$98,188.33",Professional,High School,5,Urban
+275,23,"$32,028.65",Teacher,Some College,3,Rural
+276,39,"$71,259.38",Student,High School,2,Urban
+277,28,"$46,987.15",Professional,PhD,3,Urban
+278,65,"$50,257.49",Sales,Master,2,Urban
+279,33,"$48,152.12",Other,PhD,3,Suburban
+280,50,"$42,720.18",Technology,PhD,5,Urban
+281,26,"$60,970.43",Healthcare,PhD,5,Rural
+282,23,"$43,381.00",Teacher,Some College,1,Suburban
+283,33,"$65,409.14",Technology,PhD,3,Urban
+284,46,"$58,995.24",Teacher,Master,4,Urban
+285,20,"$55,221.04",Healthcare,Master,1,Suburban
+286,37,"$41,848.73",Sales,Master,3,Urban
+287,53,"$48,464.57",Manager,Bachelor,3,Urban
+288,36,"$75,107.82",Healthcare,PhD,1,Rural
+289,43,"$70,018.34",Retired,Master,5,Suburban
+290,20,"$40,448.90",Technology,Bachelor,3,Rural
+291,36,"$61,986.65",Professional,PhD,5,Urban
+292,37,"$75,027.74",Student,PhD,1,Rural
+293,49,"$26,611.89",Retired,High School,5,Urban
+294,24,"$70,867.20",Professional,PhD,2,Suburban
+295,69,"$46,747.52",Professional,High School,4,Suburban
+296,58,"$71,411.97",Other,Some College,3,Suburban
+297,50,"$44,734.82",Teacher,Some College,4,Rural
+298,57,"$23,902.36",Other,Bachelor,5,Rural
+299,56,"$27,449.15",Healthcare,High School,3,Urban
+300,35,"$60,961.70",Manager,Some College,5,Suburban
+301,57,"$65,194.45",Technology,Some College,2,Rural
+302,18,"$41,913.67",Professional,Some College,1,Urban
+303,28,"$72,771.85",Teacher,PhD,3,Rural
+304,45,"$26,769.60",Technology,High School,2,Urban
+305,74,"$58,678.40",Healthcare,Some College,2,Rural
+306,42,"$35,779.68",Manager,High School,3,Rural
+307,67,"$46,963.28",Retired,Master,5,Rural
+308,40,"$60,947.97",Other,Master,2,Suburban
+309,48,"$42,791.73",Healthcare,PhD,4,Suburban
+310,47,"$52,308.89",Other,Master,2,Rural
+311,59,"$80,125.86",Student,Bachelor,5,Urban
+312,52,"$48,462.16",Other,High School,5,Urban
+313,24,"$76,713.84",Healthcare,Some College,4,Suburban
+314,33,"$37,405.86",Professional,Bachelor,2,Suburban
+315,43,"$70,596.08",Manager,Bachelor,5,Suburban
+316,65,"$88,831.37",Healthcare,Master,3,Rural
+317,74,"$10,567.11",Professional,High School,1,Urban
+318,69,"$44,062.09",Professional,Some College,1,Suburban
+319,66,"$71,541.44",Other,Bachelor,1,Rural
+320,19,"$55,939.09",Manager,PhD,2,Suburban
+321,18,"$67,422.92",Healthcare,Some College,4,Urban
+322,65,"$47,920.30",Healthcare,Master,5,Urban
+323,29,"$61,731.80",Teacher,High School,3,Suburban
+324,22,"$56,886.46",Technology,PhD,3,Rural
+325,54,"$83,355.64",Teacher,Some College,2,Urban
+326,49,"$65,088.42",Healthcare,Some College,1,Urban
+327,72,"$66,752.05",Other,Bachelor,2,Urban
+328,26,"$51,762.46",Retired,Some College,4,Suburban
+329,58,"$50,247.88",Healthcare,High School,4,Rural
+330,52,"$51,348.84",Student,High School,5,Rural
+331,36,"$67,889.04",Professional,Some College,5,Rural
+332,65,"$51,580.31",Sales,Bachelor,4,Rural
+333,33,"$65,795.50",Healthcare,PhD,4,Rural
+334,20,"$101,508.02",Student,PhD,4,Suburban
+335,37,"$77,422.49",Student,Bachelor,2,Suburban
+336,41,"$53,479.53",Technology,Master,4,Rural
+337,71,"$84,024.28",Manager,High School,3,Rural
+338,73,"$51,838.49",Healthcare,Master,1,Suburban
+339,50,"$19,237.51",Manager,Bachelor,4,Suburban
+340,41,"$39,838.27",Retired,Master,1,Rural
+341,69,"$22,584.16",Other,Bachelor,2,Rural
+342,28,"$52,969.73",Sales,PhD,1,Suburban
+343,66,"$60,368.37",Other,PhD,2,Urban
+344,25,"$93,528.75",Student,Master,3,Rural
+345,53,"$66,538.55",Professional,Master,2,Urban
+346,55,"$55,617.99",Professional,High School,2,Rural
+347,57,"$76,588.11",Manager,PhD,5,Rural
+348,37,"$15,777.29",Other,High School,4,Rural
+349,52,"$64,712.29",Student,Master,4,Rural
+350,65,"$75,417.30",Technology,Bachelor,3,Urban
+351,42,"$30,428.28",Other,PhD,3,Suburban
+352,52,"$82,875.08",Manager,Bachelor,4,Suburban
+353,42,"$66,769.93",Sales,High School,5,Urban
+354,46,"$51,694.24",Manager,High School,4,Suburban
+355,35,"$72,655.64",Student,Some College,5,Suburban
+356,63,"$105,413.86",Healthcare,PhD,3,Suburban
+357,35,"$63,637.33",Technology,PhD,1,Suburban
+358,19,"$64,964.41",Student,High School,3,Suburban
+359,71,"$50,812.78",Technology,Bachelor,3,Rural
+360,52,"$43,003.11",Teacher,PhD,2,Urban
+361,33,"$76,606.72",Teacher,High School,2,Suburban
+362,58,"$42,878.32",Professional,Some College,2,Suburban
+363,53,"$61,431.32",Technology,Master,2,Suburban
+364,50,"$50,446.85",Other,PhD,5,Rural
+365,21,"$69,579.60",Sales,Master,4,Suburban
+366,50,"$66,673.24",Manager,Bachelor,1,Suburban
+367,31,"$80,750.80",Teacher,Some College,3,Urban
+368,38,"$49,799.67",Manager,PhD,5,Rural
+369,65,"$54,602.50",Manager,Master,1,Suburban
+370,37,"$40,424.73",Sales,Master,5,Urban
+371,73,"$51,114.13",Student,High School,5,Urban
+372,25,"$67,546.01",Manager,Master,3,Urban
+373,24,"$75,139.77",Technology,Bachelor,4,Urban
+374,20,"$41,556.69",Sales,Master,2,Suburban
+375,34,"$77,392.12",Teacher,Bachelor,4,Urban
+376,50,"$87,112.76",Healthcare,Bachelor,3,Rural
+377,65,"$68,268.70",Manager,High School,3,Rural
+378,29,"$97,535.92",Professional,Some College,3,Suburban
+379,68,"$44,524.22",Sales,Bachelor,1,Urban
+380,39,"$35,106.91",Student,Master,4,Rural
+381,72,"$24,425.60",Retired,Master,4,Urban
+382,39,"$89,920.89",Teacher,Bachelor,5,Rural
+383,63,"$73,087.31",Teacher,Master,5,Rural
+384,47,"$58,888.31",Retired,PhD,5,Rural
+385,55,"$65,599.37",Technology,High School,3,Suburban
+386,55,"$37,490.22",Healthcare,Master,4,Rural
+387,62,"$108,915.04",Teacher,High School,3,Urban
+388,68,"$62,584.42",Teacher,Bachelor,1,Suburban
+389,71,"$62,187.90",Student,Bachelor,5,Suburban
+390,25,"$74,515.33",Teacher,Bachelor,3,Rural
+391,44,"$69,620.18",Sales,High School,3,Suburban
+392,44,"$64,477.68",Technology,Master,1,Rural
+393,51,"$44,190.51",Healthcare,PhD,2,Urban
+394,38,"$69,429.37",Professional,High School,4,Suburban
+395,47,"$97,640.49",Healthcare,PhD,2,Rural
+396,50,"$86,908.40",Technology,Master,5,Suburban
+397,45,"$91,863.73",Other,Master,3,Suburban
+398,64,"$49,775.69",Sales,High School,1,Urban
+399,50,"$40,207.90",Other,Some College,1,Rural
+400,22,"$57,484.26",Technology,PhD,4,Rural
+401,65,"$61,114.50",Student,Bachelor,2,Urban
+402,36,"$81,883.83",Professional,PhD,4,Urban
+403,21,"$26,150.71",Healthcare,Master,3,Rural
+404,52,"$90,591.01",Manager,Master,4,Suburban
+405,66,"$56,839.84",Healthcare,High School,1,Urban
+406,34,"$51,462.38",Student,Some College,1,Urban
+407,61,"$39,757.91",Professional,Bachelor,5,Suburban
+408,45,"$26,902.87",Sales,PhD,5,Rural
+409,47,"$76,463.41",Technology,Some College,3,Suburban
+410,46,"$61,466.36",Technology,Bachelor,2,Urban
+411,63,"$34,200.78",Sales,Master,4,Suburban
+412,70,"$34,098.42",Other,Master,3,Rural
+413,23,"$53,284.31",Professional,High School,5,Urban
+414,52,"$93,380.43",Sales,High School,4,Suburban
+415,58,"$54,808.17",Teacher,PhD,5,Rural
+416,54,"$29,937.14",Healthcare,Some College,4,Rural
+417,41,"$55,085.14",Student,Some College,2,Rural
+418,46,"$54,545.53",Sales,Bachelor,3,Rural
+419,66,"$6,062.27",Student,PhD,4,Rural
+420,63,"$58,914.10",Other,High School,1,Rural
+421,70,"$55,381.31",Other,PhD,1,Urban
+422,48,"$73,924.13",Teacher,Master,4,Rural
+423,52,"$96,979.12",Technology,High School,4,Rural
+424,50,"$82,531.30",Sales,Some College,4,Rural
+425,69,"$54,622.23",Professional,High School,1,Suburban
+426,38,"$37,869.48",Technology,Master,1,Urban
+427,49,"$111,467.20",Technology,High School,4,Urban
+428,40,"$61,184.37",Professional,Some College,5,Suburban
+429,50,"$60,278.59",Healthcare,Master,5,Rural
+430,20,"$59,517.50",Other,Bachelor,2,Suburban
+431,35,"$63,961.70",Healthcare,PhD,3,Suburban
+432,42,"$57,112.79",Sales,Bachelor,5,Suburban
+433,59,"$48,526.76",Technology,Master,1,Urban
+434,48,"$49,062.82",Sales,Master,5,Urban
+435,71,"$59,344.93",Healthcare,Master,2,Urban
+436,20,"$49,131.50",Other,Some College,2,Rural
+437,57,"$45,743.08",Manager,Master,3,Rural
+438,63,"$62,128.60",Teacher,PhD,5,Suburban
+439,41,"$54,900.46",Sales,Some College,1,Urban
+440,67,"$90,079.86",Sales,Master,1,Urban
+441,49,"$6,980.60",Manager,Some College,4,Rural
+442,64,"$81,830.14",Healthcare,PhD,1,Rural
+443,39,"$84,921.70",Sales,PhD,3,Urban
+444,40,"$18,532.20",Other,Some College,3,Urban
+445,19,"$53,146.25",Student,High School,1,Rural
+446,44,"$52,571.18",Healthcare,Bachelor,1,Rural
+447,59,"$31,849.77",Healthcare,Master,4,Urban
+448,19,"$44,443.67",Teacher,Bachelor,1,Suburban
+449,43,"$37,788.48",Sales,PhD,4,Suburban
+450,34,"$95,045.41",Technology,Bachelor,4,Suburban
+451,57,"$78,713.57",Retired,High School,1,Suburban
+452,50,"$85,431.10",Retired,Bachelor,2,Urban
+453,26,"$74,433.44",Retired,Bachelor,2,Suburban
+454,60,"$37,418.96",Teacher,PhD,4,Suburban
+455,71,"$49,509.59",Other,PhD,1,Rural
+456,65,"$69,787.49",Retired,Master,2,Suburban
+457,56,"$35,557.44",Manager,Some College,1,Rural
+458,46,"$74,259.97",Professional,Master,1,Rural
+459,59,"$55,193.49",Healthcare,PhD,1,Urban
+460,72,"$52,503.58",Other,Master,5,Urban
+461,43,"$74,219.20",Technology,Bachelor,1,Urban
+462,52,"$68,885.27",Professional,Bachelor,5,Urban
+463,67,"$52,780.68",Teacher,PhD,4,Rural
+464,42,"$83,186.60",Healthcare,PhD,2,Urban
+465,41,"$38,378.73",Teacher,Master,2,Rural
+466,30,"$72,318.71",Teacher,Master,2,Urban
+467,24,"$71,862.03",Manager,Bachelor,2,Suburban
+468,74,"$53,809.07",Student,Some College,2,Suburban
+469,53,"$66,522.66",Student,Some College,2,Rural
+470,62,"$34,977.73",Teacher,PhD,2,Suburban
+471,37,"$78,480.54",Retired,Master,4,Suburban
+472,18,"$56,301.96",Professional,Some College,1,Rural
+473,25,"$49,545.54",Retired,Master,3,Suburban
+474,63,"$80,980.18",Sales,High School,5,Suburban
+475,33,"$45,913.13",Teacher,Bachelor,3,Suburban
+476,31,"$31,830.77",Sales,Master,3,Urban
+477,29,"$28,867.42",Retired,Master,1,Rural
+478,68,"$72,120.20",Sales,Master,1,Urban
+479,40,"$34,391.41",Teacher,Some College,1,Suburban
+480,32,"$95,095.88",Manager,Master,2,Suburban
+481,45,"$18,361.41",Student,High School,4,Urban
+482,51,"$93,929.13",Professional,Some College,2,Suburban
+483,19,"$64,220.35",Sales,PhD,4,Rural
+484,49,"$58,065.74",Teacher,PhD,4,Rural
+485,40,"$49,101.62",Manager,Bachelor,3,Rural
+486,39,"$67,982.72",Other,High School,3,Suburban
+487,68,"$59,247.31",Retired,Master,4,Rural
+488,42,"$82,066.04",Student,High School,4,Rural
+489,39,"$62,284.55",Other,PhD,2,Suburban
+490,39,"$63,006.04",Teacher,Master,2,Urban
+491,66,"$52,727.76",Professional,High School,3,Urban
+492,69,"$58,861.09",Retired,Some College,1,Suburban
+493,59,"$66,156.04",Manager,Master,4,Rural
+494,23,"$25,796.63",Retired,Some College,2,Urban
+495,32,"$33,036.29",Other,High School,3,Urban
+496,71,"$74,865.28",Other,Master,2,Urban
+497,60,"$63,417.31",Technology,Bachelor,4,Suburban
+498,54,"$56,320.33",Retired,Bachelor,4,Urban
+499,50,"$60,368.68",Other,PhD,5,Urban
+500,25,"$66,951.63",Sales,Master,1,Suburban
