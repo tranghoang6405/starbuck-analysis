@@ -1,0 +1,6 @@
+store_id,location_type,store_type,avg_daily_traffic,competition_nearby,opening_year,sq_footage
+1,Airport,Travel,500,3,2021,1661
+2,Airport,Suburban,442,4,2011,1548
+3,Mall,Suburban,321,4,2015,2375
+4,Mall,Travel,346,4,2011,1311
+5,Drive-thru,University,766,2,2012,1872
