@@ -35,7 +35,6 @@ library(gridExtra)
 library(viridis)  
 library(ggthemes)
 ```
-
 ################################################# 
 
 # 1. CUSTOMER DEMOGRAPHICS ANALYSIS
@@ -65,7 +64,6 @@ customer_segments <- demographics %>%
                       labels = c("Low", "Medium", "High", "Very High"))
   )
 ```
-
 Create visualization of age distribution
 
 ```{r}
@@ -85,6 +83,24 @@ ggplot(customer_segments, aes(x = age_group, fill = membership_tier)) +
 ```
 
 Assessment:
+1. **Age Group Representation**:
+   - The number of customers increases consistently across the age groups, especially in the 36-50+ category.
+
+2. **Membership Tier Insights**:
+   - The **Gold tier** (represented in gold/yellow) shows a significant number of customers across all age groups compared to the **Green tier** (represented in purple).
+   - In the younger age ranges (18-25, 26-35), the Gold tier has a moderate number of customers.
+   - The difference becomes more pronounced in the older demographics, particularly in the 50+ age group, where Gold tier customers dominate.
+
+3. **Target Audience**:
+   - The Gold tier seems to appeal more to older customers, especially those aged 36 and above, suggesting that marketing strategies or offerings might resonate more with this segment.
+
+4. **Potential Opportunities**:
+   - There may be an opportunity to engage and attract more customers in the younger age groups for the Gold tier, as the current distribution suggests lower representation in those segments.
+
+5. **Strategic Considerations**:
+   - Understanding what benefits or features are attracting the older demographics to the Gold tier could inform how to adapt offerings for younger customers.
+
+Overall, the graph highlights a clear trend of increasing customer numbers in the Gold tier as age increases, which could be leveraged for targeted marketing and product development strategies.
 
 ################################################# 
 
